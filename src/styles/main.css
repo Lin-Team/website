@@ -11,6 +11,10 @@ main {
     margin: 1.4em;
 }
 
+a {
+	text-decoration: none;
+}
+
 .avatar {
 	width: 100px;
 	height: auto;
