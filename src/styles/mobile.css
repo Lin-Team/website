@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+	:root {
+		--lin-battle-width: calc(100vw - 80px);
+	}
+    .mobile-hidden {
+    	display: none!important;
+    }
+    .avatar {
+		width: calc(var(--lin-battle-width) - 50%)!important;
+	}
+
+	.name-plus-avatar {
+		flex-direction: column!important;
+	}
+
+	.name-plus-avatar .avatar {
+		margin-right: none;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+    .desktop-hidden {
+    	display: none!important;
+    }
+}

@@ -1,0 +1,40 @@
+:root {
+	--lin-battle-width: calc(100vw / 6 + 15px);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: content-box;
+}
+
+main {
+    margin: 1.4em;
+}
+
+.avatar {
+	width: 100px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.name-plus-avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.name-plus-avatar .avatar {
+	margin-right: 1em;
+}
+
+.battle {
+	display: flex;
+	width: var(--lin-battle-width);
+	min-height: 100px;
+	transition: 0.5s;
+}
+.battle:hover {
+	background-color: var(--bs-tertiary-bg);
+	transform: scale(1.1);
+}

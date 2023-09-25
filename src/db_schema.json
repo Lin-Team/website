@@ -1,0 +1,66 @@
+{
+    "gameplay_tournament": {
+        "current_stage": 0,
+        "host": "HumanFH",
+        "winner": {
+            "name": "-",
+            "link": "-"
+        },
+        "stages": [
+            {
+                "battles": [
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "Nekbie", "Ivashka"
+                        ]
+                    },
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "RLT", "Скатерть"
+                        ]
+                    },
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "EXDM", "Kosar"
+                        ]
+                    },
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "Boltoshi", "Placeholder"
+                        ]
+                    },
+                ]
+            },
+            {
+                "battles": [
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "-", "-"
+                        ]
+                    },
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "-", "-"
+                        ]
+                    }
+                ]
+            },
+            {
+                "battles": [
+                    {
+                        "song": 12345,
+                        "participants": [
+                            "-", "-"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
