@@ -1,7 +1,7 @@
 <script>
 	import { assets } from '$app/paths'
 
-	const fuckyou = true;
+	const fuckyou = false;
 </script>
 
 <div class="name-plus-avatar mt-5">
@@ -10,12 +10,12 @@
 </div>
 
 { #if fuckyou } 
-<h1>Site disabled</h1>
-<h2>Reason: meon + collabo</h2>
+	<h1>Site disabled</h1>
+	<h2>Reason: meon + collabo</h2>
 { :else }
-<main>
-    <slot />
-</main>
+	<main>
+	    <slot />
+	</main>
 { /if }
 
 
