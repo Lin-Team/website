@@ -1,5 +1,7 @@
 <script>
 	import { assets } from '$app/paths'
+
+	const fuckyou = true;
 </script>
 
 <div class="name-plus-avatar mt-5">
@@ -7,9 +9,15 @@
 	<span class="fs-1 text-center fw-bold">LIN TEAM</span>
 </div>
 
+{ #if fuckyou } 
+<h1>Site disabled</h1>
+<h2>Reason: meon (moccerati, kawuka)</h2>
+{ :else }
 <main>
     <slot />
 </main>
+{ /if }
+
 
 <style>
     @import '../styles/main.css';
