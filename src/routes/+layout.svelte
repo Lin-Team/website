@@ -11,7 +11,7 @@
 
 { #if fuckyou } 
 <h1>Site disabled</h1>
-<h2>Reason: meon (moccerati, kawuka)</h2>
+<h2>Reason: meon + collabo</h2>
 { :else }
 <main>
     <slot />
