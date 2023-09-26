@@ -16,7 +16,7 @@
     <h4 class="card-title fw-medium">Хост - {gptData.host}</h4>
     <div class="team-gpt-body card-text">
         { #each gptData.stages as stage, index }
-            <div class={"gpt-stage mx-2" + (index !== gptPage ? " mobile-hidden" : "")}>
+            <div class={"gpt-stage mx-2" + (index !== gptPage ? " mobile-hidden" : "") + (gptData.current_stage == index ? " active" : "")}>
                 { #each stage.battles as battle }
                     <Battle battleData={battle} />
                 { /each }
@@ -74,5 +74,8 @@
         flex-direction: column;
         height: 100vh;
         justify-content: space-around;
+    }
+    .gpt-stage.active {
+        background-color: var(--bs-tertiary-bg);
     }
 </style>
