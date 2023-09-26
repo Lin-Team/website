@@ -7,6 +7,6 @@
 		{ @html battleData.participants.map(ppant => `<b>${ppant}</b>`).join(" vs ") }
 	</div>
 	<div class="card-footer">
-		Song ID: { battleData.song }
+		Song: { @html battleData.song }
 	</div>
 </div>
