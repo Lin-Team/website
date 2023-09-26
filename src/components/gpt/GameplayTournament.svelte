@@ -66,9 +66,6 @@
         display: flex;
         transition: 0.3s;
     }
-    .team-gpt:hover {
-    	background-color: var(--bs-tertiary-bg);
-    }
     .gpt-stage {
         display: flex;
         flex-direction: column;
